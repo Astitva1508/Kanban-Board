@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Board from './Components/Board';
-import Header from './Components/Header';
+import Board from './Components/Board/Board';
+import Header from './Components/Header/Header';
 import './App.css';
 
 function App() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.css';
-import { IconDict } from '../icons/globalIcons';
+import { IconDict } from '../../icons/globalIcons';
 
 function Card({ ticket, user }) {
   const priorityIcons = [IconDict.noPriority, IconDict.imgLowPriority,IconDict.imgMediumPriority, IconDict.imgHighPriority, IconDict.urgentPriority];

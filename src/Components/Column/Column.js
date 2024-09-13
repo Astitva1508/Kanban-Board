@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card';
+import Card from '../Card/Card';
 import './Column.css';
 
 function Column({ title, icon, tickets, users }) {

@@ -1,7 +1,7 @@
 import React from 'react';
-import Column from './Column';
+import Column from '../Column/Column.js';
 import './Board.css';
-import {IconDict}  from '../icons/globalIcons.js'
+import {IconDict}  from '../../icons/globalIcons.js'
 
 
 function Board({ tickets, users, grouping, sorting }) {
